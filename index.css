@@ -1,0 +1,59 @@
+.navbar-collapse {
+    background-color: #343A40; /* или другой нужный вам цвет */
+}
+
+.navbar{
+    padding-top: 0px;
+}
+
+.container-fluid{
+    background-color: #343A40;
+    height: 56px;
+    padding: 0px 0px 0px 0px;
+}
+
+.navbar-brand{
+    padding-left: 16px;
+}
+
+body.bd-example {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: rgb(187, 178, 178);
+}
+
+.navbar-brand:active{
+    color: white;
+}
+
+
+.nav-link{
+    padding-left: 16px;
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(187, 178, 178);
+}
+
+.nav-link:active{
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(213, 208, 208, 0.479)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+.navbar-toggler{
+    height: 38px;
+    width: 54px;
+    border-color: rgba(232, 228, 228, 0.479);
+}
