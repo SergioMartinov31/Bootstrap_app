@@ -62,6 +62,70 @@
 .title-profile{
     margin-top: 60px;
 }
-.btn{
+
+
+.cards_main{
+    margin-top: 80px;
+    display: flex;
+    align-content: space-between;
+    gap: 100px;
+
+}
+
+.card_profile{
+    max-width: 445px;
+}
+
+.rov{
+    background-color: white;
+}
+
+.card-text{
+    color: black;
+    font-weight: 400;
+}
+
+.card-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.btn_portfolio{
     margin-bottom: 60px;
 }
+
+.btn_profile{
+    margin-bottom: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.table{
+    min-width: 800px
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+
+.footer-content{
+    background-color: #F5F5F5;
+    min-height: 51px;
+}
+
+.text-footer{
+    margin:auto;
+    color: #6C757D;
+    padding-right: 300px;
+}
+
+
+.content_table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Для плавной прокрутки на iOS */
+  }
